@@ -4,8 +4,6 @@ Tool order: DDG fast → web_fetch URL → Agent Reach/Jina → browser_navigate
 §
 codebase-memory MCP: tên project phân biệt gạch nối/spaces (General-data ≠ General data); re-index cùng tên = update; index file lẻ: để trong .codebase-memory/ và trỏ repo_path vào đó.
 §
-Pricing PHC Q3.2026 V4: A300-60 C80=243k/C90=267k; A350-65 C80=295k/C90=325k (0,151t/m); A400-65 C80 Avg=354k/C90 Avg=389k; logistic theo km (công thức & default Type A xem USER). File gốc đã restore tại documents/doc_gdrive_wiki-llm_pricing_main-sale-price-Q3-2026-V4.md.
-§
 Cron: disk watchdog 30m active (disk ≥85% báo TG, script disk_watchdog.sh); proxy-watchdog PAUSED → OmniRoute die phải chạy tay fix-omniroute.sh; context-watchdog disabled; SkillClaw :30000 retired (Option B, không restart).
 §
 Docs preprocessed (dediac, ## heading): labor.md, tcvn-9394/, tcvn-7888/ trong ~/.hermes/cache/documents/. Projects: General-data (quét toàn documents, 675 nodes — đã gộp hermes-cache-docs), Luat-lao-dong, TCVN-9394, TCVN-7888. Tra: grep / name_pattern→get_code_snippet; BM25 không index markdown.
