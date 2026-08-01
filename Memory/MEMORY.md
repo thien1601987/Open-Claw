@@ -12,7 +12,7 @@ Check Codebase-memory-mcp
 
 ### 📌 **Thứ tự công cụ / Tool Order**
 
-1. Wed_fetch
+1. Wed_fetch hoặc browser tool mặc định
 
 ---
 
