@@ -12,8 +12,7 @@ Check Codebase-memory-mcp
 
 ### 📌 **Thứ tự công cụ / Tool Order**
 
-1. Duckduckgo mặc định
-2. Wed_fetch
+1. Wed_fetch
 
 ---
 
