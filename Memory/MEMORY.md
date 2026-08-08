@@ -11,3 +11,6 @@ GitHub Memory repo: https://github.com/thien1601987/Open-Claw/tree/main/Memory (
 
 §
 Communication: Vietnamese, concise (<100 words), rich text (icons, bold, bullets). Proactive: find tools instead of asking direction, self-correct when errors occur. Data retrieval: codebase-memory-MCP/grep > chat history.
+
+§
+RAM: 2GB RAM thật + 1GB swap. Khi RAM vượt 1GB → bổ sung swap ngay để tránh OOM. Kill task gây phình RAM. Ưu tiên Hermes + model đang chạy là tối thượng. ZRAM đã bật (1GB, priority 100, persistent): module trong /etc/modules-load.d/zram.conf, udev rule /etc/udev/rules.d/99-zram.rules tự setup + swapon khi boot.
